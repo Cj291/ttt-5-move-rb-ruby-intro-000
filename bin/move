@@ -10,9 +10,8 @@ board = Array.new(9, " ")
 
 puts "Where would you like to go: 1- 9 ?"
 
-user_input = gets.strip
+user_input = gets.strip.to_i
 
 input_to_index(user_input)
-user_input.to_i - 1
 
 move(board, user_input)
