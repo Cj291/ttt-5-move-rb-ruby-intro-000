@@ -11,9 +11,6 @@ puts "Where would you like to go: 1- 9 ?"
 
 input = gets.strip
 
-#input_to_index(user_input)
-
-move(board, index, value)
+input_to_index(user_input)
 
 
-display_board(board)
